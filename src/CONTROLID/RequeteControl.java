@@ -284,7 +284,7 @@ public class RequeteControl implements Requete, Serializable {
         
         try {
             hmac = Mac.getInstance("HmacMD5");
-            hmac.init(getAuthKey()); // Exception => key is null ??? ----------------- 
+            hmac.init(getAuthKey()); 
             
             hmac.update(NumPermis);
             byte[] hf = hmac.doFinal();

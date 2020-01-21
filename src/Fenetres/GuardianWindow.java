@@ -616,8 +616,7 @@ public class GuardianWindow extends javax.swing.JFrame {
                                     jLayeredPane1.setVisible(true);
                                 }
                             }    
-                            else
-                            {
+                            else {
                                 JOptionPane.showMessageDialog(this, "Numero de sécurité invalide !", "Erreur !", JOptionPane.ERROR_MESSAGE);
                                 jLayeredPane2.setVisible(false);
                                 jLayeredPane1.setVisible(true);

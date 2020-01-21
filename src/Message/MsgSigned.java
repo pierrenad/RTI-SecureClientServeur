@@ -66,8 +66,7 @@ public final class MsgSigned implements Serializable {
         setMessage(m);
         setSignature(s);
     }
-    public MsgSigned(String u, long t, double a, byte[] dig)
-    {
+    public MsgSigned(String u, long t, double a, byte[] dig) {
         setUser(u);
         setTemps(t);
         setAlea(a);
